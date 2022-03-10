@@ -1,0 +1,50 @@
+html { 
+  background: url(images/mountains.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "SF Mono";
+}
+
+.top {
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.title {
+  color: grey;
+  text-align: center;
+  padding: 100px;
+}
+
+.content {
+  color: grey;
+  text-align: center;
+  padding: 270px;
+}
+
+.footer { 
+  color: grey;
+  text-align: center;
+}
+
+.name_sam {
+  background-image: url("images/name.png");
+  background-size: 260px;
+  height: 180px;
+  width: 260px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  text-indent: -99999999px;
+  padding: 0px 30px 0px 30px;
+}
+
+.regular_li {
+  display: inline-block;
+  padding: 30px;
+}
+
