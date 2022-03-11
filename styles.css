@@ -12,13 +12,16 @@ html {
 
 .top {
   color: white;
+  margin: auto;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 120px;
   text-align: center;
-  padding: 50px;
 }
 
 .title {
   text-align: center;
-  padding: 100px;
+  padding-top: 80px;
 }
 
 .content {
@@ -40,17 +43,34 @@ html {
   display: inline;
   position: relative;
   top: 10px;
-  padding: 0px 30px 0px 30px;
   font-size: 50px;
+  padding: 20px;
 }
 
 .regular_li {
+  display: inline;
+  padding: 30px
+}
+
+.portrait {
+ 
+  background-color: white;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  padding: 40px 40px 40px 40px;
+  position: relative;
   display: inline-block;
-  padding: 30px;
+  background-image: url("images/portrait.jpg");
+  background-size: 100px;
+  border-radius: 50%;
+  text-indent: -9999999px;
+  top: 20px;
+  
 }
 
 .main-title {
-  font-size: 30px;
+  font-size: 40px;
   color: white;
 }
 
@@ -63,30 +83,90 @@ html {
 .content {
   color: white;
   padding-bottom: 30px;
+  font-size: 25px;
 }
 
 a.button2 {
   display:inline-block;
   padding:0.5em 2em;
-  border:0.16em solid #FFFFFF;
+  border:0.16em dotted white;
   margin:0 0.3em 0.3em 0;
   box-sizing: border-box;
   text-decoration:none;
   text-transform:uppercase;
   font-family:'Sora',sans-serif;
   font-weight:400;
+  font-size: 25px;
   color:#FFFFFF;
   text-align:center;
   transition: all 0.15s;
   animation:bouncy 5s infinite linear;
   position:relative;
-  }
-  @keyframes bouncy {
-  0%{top:0em}
-  40%{top:0em}
-  43%{top:-0.9em}
-  46%{top:0em}
-  48%{top:-0.4em}
-  50%{top:0em}
-  100%{top:0em;}
+  border-radius: 5px;
+  margin-bottom: 160px;
+}
+
+.projects {
+  display: inline;
+}
+
+.projects ul {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.projects ul > li {
+  display: inline-block;
+  border-style: dotted;
+  border-color: white;
+  border-radius: 5px;
+  width: 400px;
+  height: 450px;
+  margin: 20px;
+  opacity: 90%;
+}
+
+.projects ul li div {
+  text-align: left;
+  position: relative;
+  top: -21px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.projects ul li div h4 {
+  z-index: 3;
+  position: relative;
+  top: -12px;
+  left: 8px;
+  font-size: 30px;
+}
+
+.projects ul li div .date{
+  position: relative;
+  font-size: 23px;
+  top: -45px;
+  left: 8px;
+  text-align: left;
+}
+
+
+.projects ul li div .content{
+  position: relative;
+  font-size: 18px;
+  top: -50px;
+  left: 0px;
+  text-align: left;
+}
+
+.projects ul li div .button{
+  position: relative;
+  top: -70px;
+  left: 8px;
+}
+
+
+.projects h2 {
+  text-align: center;
 }
