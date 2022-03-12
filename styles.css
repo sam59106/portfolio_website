@@ -51,6 +51,7 @@ html {
   top: -10px;
   font-size: 50px;
   padding: 2%;
+  white-space:nowrap;
 }
 
 .regular_li {
