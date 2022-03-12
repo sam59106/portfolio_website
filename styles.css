@@ -36,21 +36,26 @@ html {
   text-align: center;
 }
 
+.top ul {
+  display: flex;
+  justify-content: center;
+}
+
 .name_sam {
-  background-size: 260px;
-  height: 180px;
-  width: 260px;
+  background-size: 20%;
+  height: 10%;
+  width: 30%;
   background-repeat: no-repeat;
   display: inline;
   position: relative;
-  top: 10px;
+  top: -10px;
   font-size: 50px;
-  padding: 20px;
+  padding: 2%;
 }
 
 .regular_li {
   display: inline;
-  padding: 30px
+  padding: 3%
 }
 
 .portrait {
