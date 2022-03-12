@@ -14,9 +14,8 @@ html {
   color: white;
   margin: auto;
   width: 50%;
-  padding-top: 50px;
-  padding-bottom: 120px;
-  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 14%;
   font-size: 19px;
 }
 
@@ -39,6 +38,12 @@ html {
 .top ul {
   display: flex;
   justify-content: center;
+  overflow: visible;
+  position: absolute;
+  left: 0; 
+  right: 0; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .name_sam {
@@ -49,9 +54,9 @@ html {
   display: inline;
   position: relative;
   top: -10px;
-  font-size: 50px;
-  padding: 2%;
-  white-space:nowrap;
+  font-size: 2.5em;
+  padding: 2% 0% 0% 0%;
+  text-align: center;
 }
 
 .regular_li {
@@ -123,14 +128,13 @@ Below this is portfolio showcase
 
 .projects {
   display: inline;
-  width: 100%
+  width: 100%;
 }
 
 .projects ul {
   display: inline-block;
   padding: 0;
   list-style: none;
-  
 }
 
 
