@@ -186,6 +186,21 @@ Below this is portfolio showcase
   top: 10px;
 }
 
+.play-button a{
+  text-decoration: none;
+  color: white;
+}
+
+#top a{
+  text-decoration: none;
+  color: white;
+}
+
+#removeurl a{ 
+  text-decoration: none;
+  color: white;
+}
+
 .project-container{
   width: 100%;
   height: 100%;
