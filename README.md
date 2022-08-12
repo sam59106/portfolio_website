@@ -1,2 +1,2 @@
 # portfolio_website
-Available on samfloyd.tech
+Available on sekuriyo.net
